@@ -1,16 +1,19 @@
 {
   "name": "dhkdtld37-common-fun2",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "common fun",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "build": "webpack --mode production",
+    "serve": "webpack-dev-server --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dhkdtld37/dhkdtld37-common-fun.git"
   },
-   "keywords": [
+  "keywords": [
     "common",
     "js",
     "function",
@@ -22,5 +25,12 @@
   "bugs": {
     "url": "https://github.com/dhkdtld37/dhkdtld37-common-fun/issues"
   },
-  "homepage": "https://github.com/dhkdtld37/dhkdtld37-common-fun#readme"
+  "homepage": "https://github.com/dhkdtld37/dhkdtld37-common-fun#readme",
+  "dependencies": {
+    "vue": "^3.4.15"
+  },
+  "devDependencies": {
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4"
+  }
 }
